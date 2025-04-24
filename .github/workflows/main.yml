@@ -18,5 +18,6 @@ jobs:
     - name: Build Docker image
       run: docker build -f docker/Dockerfile -t ${{ secrets.DOCKER_USERNAME }}/hello-world-nginx:latest .
 
+
     - name: Push Docker image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/hello-world-nginx:latest
