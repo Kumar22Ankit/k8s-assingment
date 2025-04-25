@@ -25,6 +25,7 @@ cd assingment
 
 2. **Build the Docker Image: Run the following command to build the Docker image:**
 ```bash
+docker build -t hello-world-nginx ..
 docker run -d -p 8080:80 hello-world-nginx
 ```
 3. **Apply the Deployment & service: Apply the deployment & service to your Kubernetes cluster:**
