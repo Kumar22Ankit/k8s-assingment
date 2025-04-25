@@ -18,10 +18,10 @@ This project demonstrates a simple HTML page served using an NGINX Docker contai
 ## Steps to Build and Run the Project
 
 1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-   ```
+```bash
+git clone https://github.com/Kumar22Ankit/k8s-assingment.git
+cd assingment
+```
 
 2. **Build the Docker Image: Run the following command to build the Docker image:**
 ```bash
